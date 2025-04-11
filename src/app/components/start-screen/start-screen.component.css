@@ -18,7 +18,7 @@ body {
 .intro {
   font-size: 24px;
   color: #00ffe5;
-  animation: fadeOut 4s forwards;
+  animation: fadeOut 7s forwards;
   margin-top: 20vh;
 }
 
