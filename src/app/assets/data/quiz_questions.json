@@ -1,0 +1,55 @@
+{
+  "title": "você seria um Sith ou um Jedi?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Como você lidaria com emoções fortes como raiva ou medo?",
+      "options": [
+        { "id": 1, "name": "Usaria como fonte de poder", "alias": "A" },
+        { "id": 2, "name": "Meditaria para manter a calma", "alias": "B" },
+        { "id": 3, "name": "Agiria por impulso", "alias": "A" },
+        { "id": 4, "name": "Refletiria antes de agir", "alias": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual destes caminhos mais te atrai?",
+      "options": [
+        { "id": 1, "name": "Poder absoluto", "alias": "A" },
+        { "id": 2, "name": "Equilíbrio e sabedoria", "alias": "B" },
+        { "id": 3, "name": "Controle através do medo", "alias": "A" },
+        { "id": 4, "name": "Defender os fracos", "alias": "B" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Como seria seu sabre de luz?",
+      "options": [
+        { "id": 1, "name": "Vermelho, imponente e agressivo", "alias": "A" },
+        { "id": 2, "name": "Verde ou azul, símbolo de paz", "alias": "B" },
+        { "id": 3, "name": "Duplo, como Darth Maul", "alias": "A" },
+        { "id": 4, "name": "Curvado e elegante", "alias": "B" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual é o seu pensamento sobre regras?",
+      "options": [
+        { "id": 1, "name": "Regras são feitas para serem quebradas", "alias": "A" },
+        { "id": 2, "name": "Regras mantêm a ordem", "alias": "B" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Com quem você mais se identifica?",
+      "options": [
+        { "id": 1, "name": "Darth Vader", "alias": "A" },
+        { "id": 2, "name": "Obi-Wan Kenobi", "alias": "B" }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você muito provavelmente seria um Sith — movido pela paixão, ambição e poder!",
+    "B": "Você muito provavelmente seria um Jedi — guiado pela paz, equilíbrio e compaixão!"
+  }
+}

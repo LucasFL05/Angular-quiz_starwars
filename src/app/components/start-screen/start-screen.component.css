@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  overflow: hidden;
+  color: yellow;
+  font-family: 'StarJedi', sans-serif;
+}
+
+.star-wars-intro {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  perspective: 400px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 24px;
+  color: #00ffe5;
+  animation: fadeOut 4s forwards;
+  margin-top: 20vh;
+}
+
+.crawl {
+  font-family: sans-serif;
+  position: absolute;
+  top: 100vh;
+  width: 90%;
+  max-width: 600px;
+  left: 50%;
+  transform: translateX(-50%) rotateX(25deg);
+  transform-origin: 50% 100%;
+  animation: crawl 160s linear forwards; /* animação mais lenta */
+  color: yellow;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+
+
+
+
+.crawl .title {
+  text-align: center;
+}
+
+.crawl .title h1 {
+  margin: 0;
+  font-size: 52px;
+}
+
+@keyframes crawl {
+  0% {
+    top: 100vh;
+  }
+  100% {
+    top: -900%;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.start-button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: yellow;
+  border: 2px solid yellow;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: 'StarJedi', sans-serif;
+  cursor: pointer;
+  opacity: 0;
+  animation: aparecerBotao 3s ease-in forwards;
+  animation-delay: 18s;
+  z-index: 999;
+}
+
+
+
+@keyframes aparecerBotao {
+  to {
+    opacity: 1;
+  }
+}
